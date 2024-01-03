@@ -1,12 +1,12 @@
+import { useKeepAwake } from 'expo-keep-awake';
 import React, { useState } from 'react';
-import { View, StyleSheet, Text,Vibration } from 'react-native';
+import { StyleSheet, Text, Vibration, View } from 'react-native';
 import { ProgressBar } from 'react-native-paper';
 import { Countdown } from '../components/Countdown';
 import { RoundedButton } from '../components/RoundedButton';
-import { spacing } from '../utils/sizes';
 import { colors } from '../utils/colors';
-import { useKeepAwake } from 'expo-keep-awake';
-import {Timing} from './Timing';
+import { spacing } from '../utils/sizes';
+import { Timing } from './Timing';
 
  const ONE_SECOND_IN_MS = 1000;
 
